@@ -179,3 +179,15 @@ h1 {
   text-align: left;
   line-height: 1.2;
 }
+
+#shareBtn{
+  margin-top:14px;
+}
+
+
+#shareBtn{
+  margin-top:24px;
+  display:block;
+  margin-left:auto;
+  margin-right:auto;
+}
