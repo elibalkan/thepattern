@@ -69,7 +69,9 @@ sequenceEl.appendChild(d);
 const input=document.createElement("input");
 input.className="pill";
 input.type="text";
-input.inputMode="decimal";
+input.autocapitalize="off";
+input.autocomplete="off";
+input.spellcheck=false;
 
 sequenceEl.appendChild(input);
 
