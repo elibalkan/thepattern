@@ -1,40 +1,46 @@
-<!doctype html>
+<!DOCTYPE html>
 <html lang="en">
+
 <head>
-  <meta charset="utf-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <meta charset="UTF-8">
   <title>The Pattern</title>
-  <link rel="stylesheet" href="style.css" />
+
+  <!-- CSS -->
+  <link rel="stylesheet" href="style.css?v=1">
+
 </head>
+
 <body>
-  <main class="wrap">
+
+  <div class="wrap">
+
     <h1>The Pattern</h1>
-<div class="titleRule"></div>
 
     <div id="stageLabel" class="stageLabel"></div>
 
+    <!-- sequence display -->
     <div id="sequence" class="sequence"></div>
 
-    <form id="guessForm" class="controls" autocomplete="off">
-      <input
-        id="guessInput"
-        class="input"
-        type="text"
-        inputmode="numeric"
-        placeholder="Enter the next number"
-      />
-      <button class="btn" type="submit">Submit</button>
-    </form>
+    <!-- input controls -->
 
-    <p id="feedback" class="feedback"></p>
+    <!-- feedback -->
+    <div id="feedback" class="feedback"></div>
 
-    <!-- Shows ONLY after all 3 rounds -->
-    <section id="results" class="results hidden">
-      <h2 class="resultsTitle">Results</h2>
+    <!-- results -->
+    <div id="results" class="results hidden">
+
+      <div class="resultsTitle">
+        Results
+      </div>
+
       <div id="resultsGrid" class="resultsGrid"></div>
-    </section>
-  </main>
 
-  <script src="game.js"></script>
+    </div>
+
+  </div>
+
+  <!-- game logic -->
+  <script src="game.js?v=1"></script>
+
 </body>
 </html>
